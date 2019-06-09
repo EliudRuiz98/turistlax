@@ -1,0 +1,80 @@
+img{
+    max-width: 100%;
+}
+#coches{
+ max-width:60%;   
+}
+#coches:hover{
+filter: brightness(90%);
+}
+#bodyy{
+background-color: #a7d7c5;
+}
+.logo{
+max-width:50%;    
+}
+#list
+{
+color:gray;
+    font-size: 140%;
+}
+#menu{
+background-color:#74b49b;
+}
+#menu ul{
+    list-style: none;
+    margin:0;
+}
+#menu ul li{
+    display: inline-block;
+    padding-left: 3%;  
+    padding-right: 3%;
+}
+#menu ul li a{
+        display: block;
+    color: #F6DDCC;
+font-size: 140%;
+    text-decoration: none;
+        padding: 20px;
+}
+#menu ul li a:hover{
+background-color:gray;
+    border-radius: 30px;
+}
+
+.cont{
+    background-color:#F8C471;
+}
+#desccar{
+    font-size: 130%;
+color:gray;
+}
+
+#namecar{
+font-size: 160%;
+    color:gray;
+
+font-family: sans-serif;
+}
+
+
+.simplescrollup__button 
+{
+position: fixed;
+bottom: 3rem;
+right: 3rem;
+transition: 1s all;
+z-index: 10000;
+}
+.simplescrollup__button--show 
+{
+transform: translateX(0);
+}
+.simplescrollup__button--hide 
+{
+transform: translateX(100px);
+}
+#subirbot{
+
+    max-width: 40px;
+}

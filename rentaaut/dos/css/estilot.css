@@ -1,0 +1,95 @@
+img{
+  max-width: 100%;
+}
+#bodyy{
+    background-color: #a7d7c5;
+}
+
+body{
+background-color: #a7d7c5;
+  
+}
+.logo{
+    max-width:50%;    
+
+}
+.formularioo{
+    background-color: #5c8d89;
+
+}
+
+#texto{
+    color:#a7d7c5;
+    font-size: 300%;
+    position: relative;
+}
+#textodos{
+    color:#a7d7c5;
+    font-size: 120%;
+    position: relative;
+}
+
+
+
+
+
+
+input[type="text"]{
+      border: 1px dotted #999;
+  border-radius: 10px;
+font-size: 140%;
+background-color: #a7d7c5;
+
+color:gray;
+}
+
+input[type="text"]:hover{
+
+background-color: #F6DDCC;
+  transition: .4s;
+  color:gray;
+}
+
+
+input[type="password"]{
+      border: 1px dotted #999;
+  border-radius: 10px;
+font-size: 140%;
+background-color: #a7d7c5;
+transition: .7s;
+color:gray;
+}
+
+input[type="submit"]{
+      border-radius: 40px;
+ font-size: 170%;
+    background-color: #E59866; 
+  transition: 2.3s;
+ color:#a7d7c5;
+
+
+}
+input[type="submit"]:hover{
+      border-radius: 40px;
+
+opacity: 0.6;
+    background-color: yellow;   
+}
+
+
+
+button{
+	      border-radius: 40px;
+ font-size: 70%;
+    background-color: #E59866; 
+  transition: 2.3s;
+  color:#a7d7c5;
+   
+}
+button:hover{
+      border-radius: 40px;
+
+opacity: 0.6;
+    background-color: yellow; 
+
+}

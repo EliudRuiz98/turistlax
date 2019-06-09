@@ -1,0 +1,104 @@
+img{
+    max-width: 100%;
+}
+#bodyy{
+    background-color: #a7d7c5;
+}
+.logo{
+    max-width:50%;    
+
+}
+#menu{
+background-color:#74b49b;
+
+}
+#menu ul{
+    list-style: none;
+    margin:0;
+
+
+}
+#menu ul li{
+    display: inline-block;
+    padding-left: 3%;  
+    padding-right: 3%;
+    font-size: 140%;
+}
+#menu ul li a{
+    display: block;
+    color: #F6DDCC;
+    text-decoration: none;
+padding: 20px;
+}
+#menu ul li a:hover{
+    background-color:gray;
+      border-radius: 30px;
+
+}
+
+.cont{
+	background-color:#5c8d89;
+    color:#F6DDCC;
+    font-size: 120%;
+   
+
+}
+b,br{
+    color:#74b49b;
+    font-size: 130%;
+content: center;
+
+}
+
+
+  .google-maps {
+    position: relative;
+  
+    padding-bottom: 30%;
+    height: 30%;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 80% ;
+    height: 80% ;
+    }
+ .direc{
+ 	position: relative;
+  font: oblique bold 140% cursive;
+
+    color: gray;
+ 
+ }
+
+#ubica{
+
+    width: 30px ;
+    height: 30px ;
+
+ 
+}
+
+.simplescrollup__button 
+{
+position: fixed;
+bottom: 3rem;
+right: 3rem;
+transition: 1s all;
+z-index: 10000;
+}
+
+.simplescrollup__button--show 
+{
+transform: translateX(0);
+}
+.simplescrollup__button--hide 
+{
+transform: translateX(100px);
+}
+#subirbot{
+
+    max-width: 40px;
+}

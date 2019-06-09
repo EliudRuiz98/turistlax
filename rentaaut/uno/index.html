@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/main.css">
+
+	<link rel="stylesheet" type="text/css" href="css/estilopp.css">
+</head>
+
+<body id="bodyy">
+	<div class="social-bar">
+    <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+  </div>
+	<center>
+<div class='logo'>
+<img src="image/logo.png">
+</div>
+<div id="menu">
+<ul>
+  <li><a href="#index">Inicio</a></li>
+  <li><a href="conoce.html">Conoce nuestros vehículos</a></li>
+  <li><a href="cotiza.html">Cotiza aqui</a></li>
+  <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+</ul>
+</div>
+
+<div class="formularioo">
+<div id="texto">
+<br>Ingresa tus datos para comunicarnos contigo
+</div>
+<br>
+	<div id="cuadtexuno">
+<form action="saved.php" method="POST">
+
+	<input type="text" placeholder="Nombre"
+	minlength="5" maxlength="40" required title="Escribe tu nombre"name="nomb">
+
+	<input type="text" placeholder="Teléfono"
+	minlength="10" maxlength="10"required title="Escribe un número de teléfono a 10 digitos"name="telef">
+
+	<input type="email" placeholder="E-mail"required title="Ingresa una dirección de correo electrónico"
+	minlength="10" maxlength="40"name="mail"><br>
+</div>
+	<div id="texto"><br>fecha de salida</div><br>
+	<input type="date"required title="selecciona la fecha de salida"name="fecha"><br><br>
+
+	<input type="text" placeholder="Origen"
+	required title="Escribe en donde inicia el viaje"minlength="4" maxlength="40"name="orig"><br><br>
+
+	<input type="text" placeholder="Destino"required title="Escribe a donde llega el viaje"minlength="4" maxlength="40"name="dest"><br>
+	
+	<div id="texto">Numero de pasajeros</div>
+<select required title="selecciona una opción"name="select">
+   <option value="de 1 a 10">de 1 a 10</option> 
+   <option value="de 11 a 20">de 11 a 20</option> 
+   <option value="de 21 a 30">de 21 a 30</option>
+   <option value="de 31 a 40">de 31 a 40</option> 
+   <option value="mas de 41">más de 41</option>
+</select>
+<br><br>
+	
+	<div id="texto">Cuéntanos con detalle qué buscas</div><br>
+	<input type="text"placeholder="Detalles del servicio"required title="Describe con detalles el servicio"minlength="10" maxlength="500"name="detalles"><br>
+
+	<br><input type="submit" value="Agendar">
+
+	</form>
+</div>
+</div>
+</center>
+</body>
+</div>
+</html>

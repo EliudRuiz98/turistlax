@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="css/estilot.css">
+	<title>CONTROL DE SISTEMA</title>
+</head>
+<body id="bodyy">
+	<center>
+<div class='logo'>
+<img src="image/logo.png">
+</div>
+
+<div class="formularioo">
+<div id="texto">
+<br>Control de solicitudes
+</div>
+<div id="textodos">
+<br>
+Escribe la contraseña para entrar<br>
+</div>
+
+
+
+<form action="verar.php" method="POST">
+
+
+
+	<input type="password" name="pas" id="pass1">
+
+
+
+	<button type="button" onclick="verpass()">Mostrar/ocultar</button>
+
+
+
+
+
+<br>
+	<div id="cuadtexuno">
+
+
+	
+	<input type="submit" value="VER">
+
+	</form>
+
+
+		<script>
+			function verpass(){
+				var tipo = document.getElementById("pass1");
+				if(tipo.type == "password"){
+					tipo.type = "text";
+				}else{
+					tipo.type = "password";
+				}
+			}
+		</script>
+
+
+
+
+
+</div>
+</center>
+</body>
+</div>
+</html>
+

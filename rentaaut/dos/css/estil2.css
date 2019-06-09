@@ -1,0 +1,46 @@
+body{
+	background-color: #a7d7c5;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input[type="text"]{
+      border: 1px dotted #999;
+  border-radius: 10px;
+font-size: 140%;
+background-color: #ddd;
+
+}
+
+input[type="text"]:hover{
+      border: 1px dotted #999;
+  border-radius: 10px;
+font-size: 140%;
+background-color: #F6DDCC;
+  transition: .4s;
+}
+input[type="submit"]{
+      border-radius: 40px;
+ font-size: 100%;
+    background-color: #E59866; 
+  transition: 2.3s;
+
+}
+input[type="submit"]:hover{
+      border-radius: 40px;
+
+opacity: 0.6;
+    background-color: yellow;   
+}
+#textodos{
+    color:#a7d7c5;
+    font-size: 300%;
+    position: relative;
+}
